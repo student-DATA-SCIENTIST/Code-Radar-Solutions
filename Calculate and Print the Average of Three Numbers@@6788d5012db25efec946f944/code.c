@@ -1,14 +1,9 @@
-#include <stdio.h>
-
-
-
-int main() {
-    char a,b,c,average;
-    printf("Enter numbers: ");
-    scanf("%c%c%c,&a,&b,&c");
-    average=(a+b+c)\3;
-    printf("Average:",average);
-
-
+#include<stdio.h>
+int main(){
+    int a,b,c;
+    scanf("%d %d %d",&a,&b,&c);
+    double average;
+    average=(a+b+c)/3.0;
+    printf("Average: &.2lf", average);
     return 0;
 }
