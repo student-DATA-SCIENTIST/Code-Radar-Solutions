@@ -7,7 +7,8 @@ int main() {
     // Leap year condition
     if (year % 5 == 0 && year % 11 == 0) {
         printf("Divisible\n");
-    } else {
+    } 
+    else {
         printf("Not Divisible\n");
     }
 
