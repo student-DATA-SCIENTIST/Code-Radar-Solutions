@@ -1,14 +1,13 @@
-// Your code here...#include <stdio.h>
+#include <stdio.h>
 
 int main() {
-    int year;
-    scanf("%d", &year);  // Read input from the user
+    int num;
+    scanf("%d", &num);  // Read input from the user
 
-    // Leap year condition
-    if (year % 5 == 0 && year % 11 == 0) {
+    // Check divisibility by 5 and 11
+    if (num % 5 == 0 && num % 11 == 0) {
         printf("Divisible\n");
-    } 
-    else {
+    } else {
         printf("Not Divisible\n");
     }
 
