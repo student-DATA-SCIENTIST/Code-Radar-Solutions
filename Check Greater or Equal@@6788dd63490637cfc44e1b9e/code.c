@@ -8,7 +8,7 @@ int main(){
         printf("Yes");
     }
     else if (a<b){
-        printf("No")
+        printf("No");
     }
     // else{
     //     printf()
