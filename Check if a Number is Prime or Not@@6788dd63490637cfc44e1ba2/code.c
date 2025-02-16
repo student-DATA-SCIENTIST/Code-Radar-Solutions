@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 int main() {
-    int num, i;
-    scanf("%d", &num);
+    int n, i;
+    scanf("%d", &n);
 
     if (num <= 1) {
         printf("Not Prime\n");
         return 0;
     }
 
-    for (i = 2; i<= num/2; i++) {
-        if (num % i == 0) {
+    for (i = 2; i<= n/2; i++) {
+        if (n % i == 0) {
             printf("Not Prime\n");
             return 0;
         }
